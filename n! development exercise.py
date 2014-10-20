@@ -1,37 +1,15 @@
 #Ryan Cox
-#16/10/14
-#Development exercises
-#not working right now
+#16/10/14 (fixed on 19/20/10)
+#Development exercis - factorial program
+
+n = int(input("input value of n: "))
 
 
-total = 0
-number = 0
-increase = 1
-
-repeats = int(input("Please enter the value of n: "))
-
-for count in range(repeats):
-    number = number + increase
-    total = number + increase
-    
-    
-
-print(total)
-    
-   
-    
-    
+if n>=0:
+    f = 1
+    while (n > 0):
+        f = f * n
+        n = n - 1
 
 
-    
-    
-  
-    
-    
-                
-
-
-
-   
-
-    
+print(f)
